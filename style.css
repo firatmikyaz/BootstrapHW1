@@ -1,0 +1,65 @@
+/* Navbar */
+
+#body{
+    background: #E9ECEF;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 1rem;
+    background: grey;
+    list-style-type: none;
+}
+#navbar ul li {
+    padding: 0.5rem;
+}
+#navbar ul li a {
+    color: rgb(156, 151, 151);
+    text-decoration: none;
+}
+
+
+
+#jumbotron{
+    background: #E9ECEF;
+    text-align: center;
+    margin-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+#jumbotron h1 {
+    color: crimson;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+#jumbotron h3 {
+    color: darkgoldenrod;
+}
+
+#jumbotron ul {     
+    display: inline-block;
+    margin: 0.1em; 
+}
+
+.btn {
+    border: 2px solid;
+    background-color: #007bff;
+    color: white;
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* URUNLER */
+#aboutus {
+    background: #E9ECEF;
+}
+#aboutus h2 {
+    color: darkgoldenrod;
+}
+#aboutus p {
+    letter-spacing: 0.1em;
+}
