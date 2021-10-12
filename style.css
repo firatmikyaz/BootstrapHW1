@@ -46,6 +46,7 @@
     background-color: #007bff;
     color: white;
     padding: 0.25rem;
+    margin: 1em;
     font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -56,8 +57,15 @@
 /* URUNLER */
 #aboutus {
     background: #E9ECEF;
+    width: 100%;
 }
-#aboutus h2 {
+#aboutus h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: royalblue;
+}
+#aboutus h3 {
     color: darkgoldenrod;
 }
 #aboutus p {
