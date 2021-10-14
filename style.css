@@ -1,8 +1,9 @@
+/* ALL FONTS */
 * {
     font-family: Open Sans, sans-serif;
 }
-/***** INDEX *****/
 
+/***** INDEX *****/
 /* Navbar */
 #body{
     background: #E9ECEF;
@@ -40,10 +41,16 @@
 #jumbotron ul {     
     display: inline-block;
     margin: 0.1em;
-    padding-bottom: 1rem; 
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; 
 }
 #jumbotron a {
     text-decoration: none;
+    margin-top: 0.25rem;
+}
+#jumbotron a:hover {
+    text-decoration: none;
+    color: darkgray;
 }
 .btn {
     border: 2px solid;
@@ -64,6 +71,7 @@
 #aboutus {
     background: #E9ECEF;
     width: 100%;
+    padding: 1rem;
 }
 #aboutus h2{
     width: 100%;
@@ -79,29 +87,36 @@
     color: rgb(27, 27, 27);
 }
 
-/* ******* */
-.container{
+
+/* PRODUCTS */
+.product-body{
+    background: #E9ECEF;
+}
+.title{
     text-align: center;
     background: #E9ECEF;
 }
-.container h1{
+.title h1 {
+    color: blueviolet;
+    padding-top: 1rem;
+}
+.title .card-text {
     color: blueviolet;
 }
-.row{
-    padding: 1rem;
-    width: 100%;
+.title .row {
+    padding: 0.25rem;
 }
-.col-4 {
-    display: inline-block;
-    margin: 1rem;
-    background: white;
+.title .row .col-4{
+    padding: 0.5rem;
 }
-.card-body {
-    color: blueviolet;
-    display: inline-block;
-}
-
-
-.card img{
-    width: 15rem;
+.card-tag{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: gray;
+    width: fit-content;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
 }
